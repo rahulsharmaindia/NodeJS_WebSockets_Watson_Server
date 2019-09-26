@@ -1,0 +1,31 @@
+{
+  "name": "nodejs_websockets_watson_server",
+  "version": "1.0.0",
+  "description": "Web socket server in node js for flutter chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsharmaindia/NodeJS_WebSockets_Watson_Server.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "watson",
+    "websocket"
+  ],
+  "author": "Rahul Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulsharmaindia/NodeJS_WebSockets_Watson_Server/issues"
+  },
+  "homepage": "https://github.com/rahulsharmaindia/NodeJS_WebSockets_Watson_Server#readme",
+  "dependencies": {
+    "cfenv": "^1.2.2",
+    "dotenv": "^6.0.0",
+    "watson-developer-cloud": "^3.11.0",
+    "ws": "^7.1.2"
+  }
+}

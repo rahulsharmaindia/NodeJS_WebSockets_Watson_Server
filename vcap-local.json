@@ -1,0 +1,16 @@
+{
+ 
+    "services": {
+      "TieraAssistant":[
+      {
+        "name":"TieraAssistant",
+        "credentials": {
+          "iam_apikey": "RCJles8JcHuBUQKeAqAp_yJIwl6IC1L59U2RA8GUpner",
+          "url": "https://gateway-lon.watsonplatform.net/assistant/api",
+          "version": "2019-04-16"
+        },
+        "label": "conversation"
+      }
+    ]
+  }
+}
