@@ -21,7 +21,7 @@ var service = new AssistantV1({
     version: tieraAssistant.version
 });
 
-const wss = new WebSocket.Server({ port: 8000 })
+const wss = new WebSocket.Server({ port: process.env.PORT || 4000 })
 
 wss.on('connection', ws => {
     //send a message to watson and get the response and send the response to the client connected on this event.
