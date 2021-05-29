@@ -26,6 +26,6 @@
     "cfenv": "^1.2.2",
     "dotenv": "^6.0.0",
     "watson-developer-cloud": "^3.11.0",
-    "ws": "^7.1.2"
+    "ws": "^7.4.6"
   }
 }
